@@ -4,6 +4,7 @@ import React, {useState} from "react";
 import NavLink from "./NavLink";
 import { MenuIcon, XIcon} from "@heroicons/react/outline";
 import { set } from "mongoose";
+import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
     {
@@ -55,6 +56,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
+            {navbarOpen ? <MenuOverlay links={navLinks} />: null}
         </nav>
     );
 };

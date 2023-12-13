@@ -19,7 +19,7 @@ const HeroSection = () => {
                         1000, 
                         'Java Developer',
                         1000,
-                        'MEARN Stack Developer',
+                        'MERN Stack Developer',
                         1000,
                         'Mobile Developer',
                         1000
